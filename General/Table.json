@@ -3,7 +3,7 @@
     "transform": {
       "position": {
         "x": 0,
-        "y": 0,
+        "y": 0.25,
         "z": 0
       }
     },
@@ -19,24 +19,26 @@
       "z": 1
     }
   },
-  "space": {
-    "name": "surface",
-    "lowerBoundary": {
-      "x": -0.5,
-      "y": 0,
-      "z": -0.5
-    },
-    "upperBoundary": {
-      "x": 0.5,
-      "y": 0,
-      "z": 0.5
-    },
-    "transform": {
-      "position": {
-        "x": 0,
-        "y": 0.5,
-        "z": 0
+  "space": [
+    {
+      "name": "surface",
+      "lowerBoundary": {
+        "x": -0.5,
+        "y": 0,
+        "z": -0.5
+      },
+      "upperBoundary": {
+        "x": 0.5,
+        "y": 0,
+        "z": 0.5
+      },
+      "transform": {
+        "position": {
+          "x": 0,
+          "y": 0.5,
+          "z": 0
+        }
       }
     }
-  }
+  ]
 }
